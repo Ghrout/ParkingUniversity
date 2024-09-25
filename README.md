@@ -41,18 +41,6 @@ npm install
 
 Ejecuta `ng serve` para iniciar un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si realizas cambios en alguno de los archivos fuente.
 
-## Generación de código
+## Agradecimientos
 
-Ejecuta `ng generate component nombre-del-componente` para generar un nuevo componente. También puedes usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Compilación
-
-Ejecuta `ng build` para compilar el proyecto. Los artefactos de construcción se almacenarán en el directorio `dist/`.
-
-## Pruebas unitarias
-
-Ejecuta `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
-
-## Pruebas de extremo a extremo
-
-Ejecuta `ng e2e` para ejecutar las pruebas de extremo a extremo.
+¡Gracias por validar el repositorio! Esperamos que encuentres útil esta aplicación de reserva de parqueo y que facilite tu experiencia. Si tienes preguntas o sugerencias, no dudes en abrir un issue.
