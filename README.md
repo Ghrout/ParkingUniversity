@@ -28,6 +28,13 @@ Una vez que se ingresa a **Acceder**, los usuarios son recibidos por una interfa
 
 ![image](https://github.com/user-attachments/assets/d4e6e2c2-dcc7-46d1-b732-59ddc99cee40)
 
+![image](https://github.com/user-attachments/assets/ae209497-8d1b-40a4-9503-a3cfaf82159c)
+
+![image](https://github.com/user-attachments/assets/e404b8c3-9f46-4b45-a94d-78f4b5b8c4df)
+
+![image](https://github.com/user-attachments/assets/5ca02a67-6d4f-432a-bf56-4e2dd3806a27)
+
+
 
 ## Instalación
 
