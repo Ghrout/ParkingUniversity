@@ -1,0 +1,190 @@
+button {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.home_title {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 8px;
+}
+
+@media (max-width: 639px) {
+  .home_title {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 28px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 640px) {
+  .home_title {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 28px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .home_title {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home_title {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home_title {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+.carrusel_title {
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+@media (min-width: 640px) {
+  .carrusel_title{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 7680px) {
+  .carrusel_title{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carrusel_title{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  .carrusel_title{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+
+button:hover {
+  transition: background-color 0.3s, color 0.3s;
+  /* Transiciones suaves */
+}
+
+.preview-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Animación de transform y sombra */
+}
+
+.preview-img:hover {
+  transform: scale(1.05);
+  /* Efecto de zoom */
+  box-shadow: 0 4px 20px rgba(0, 255, 0, 0.5);
+  /* Sombra verde al hacer hover */
+}
+
+img {
+  transition: opacity 0.3s ease;
+  /* Transición de opacidad */
+}
+
+img:hover {
+  opacity: 0.9;
+  /* Desvanecimiento suave */
+}
+
+.image-transition {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 0;
+  transform: scale(0.9);
+  /* Escala inicial más pequeña */
+}
+
+.image-transition.show {
+  opacity: 1;
+  /* Hacer visible */
+  transform: scale(1);
+  /* Escala normal */
+}
+
+.preview-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Animación de transform y sombra */
+}
+
+.preview-img:hover {
+  transform: scale(1.05);
+  /* Efecto de zoom */
+  box-shadow: 0 4px 20px rgba(0, 255, 0, 0.5);
+  /* Sombra verde al hacer hover */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+    /* Aumenta la distancia */
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(-10px);
+    /* Rebotar hacia arriba */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease forwards;
+  /* Duración de la animación */
+  opacity: 0;
+  /* Inicialmente oculto */
+}
+
+html {
+  scroll-behavior: smooth;
+}

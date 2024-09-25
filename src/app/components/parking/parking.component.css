@@ -1,0 +1,10 @@
+.gradient-background {
+  background-image:
+    linear-gradient(rgba(255, 126, 95, 0.7), rgba(254, 180, 123, 0.7)), /* Degradado con opacidad */
+    url('/Recursos/vehiculos.jpg'); /* URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  
+}
+
+
